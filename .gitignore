@@ -1,0 +1,59 @@
+# LEAP project .gitignore (generated)
+
+# --- dataset raw files ---
+# Ignore all files under the datasets directory (do not commit raw data)
+datasets/
+
+# If you want to keep an empty datasets folder tracked, create and track a .gitkeep
+# e.g. Git: add datasets/.gitkeep
+
+# --- common Python / build / cache files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Checkpoints / model weights / outputs
+*.pth
+*.pt
+*.ckpt
+*.tar
+checkpoints/
+outputs/
+weights/
+
+# NumPy / archives
+*.npy
+*.npz
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Other common ignores
+*.swp
+*.swo
+
+# End of LEAP-generated .gitignore

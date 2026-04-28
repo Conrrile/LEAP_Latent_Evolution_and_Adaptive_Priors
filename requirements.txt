@@ -1,0 +1,11 @@
+# Requirements for LEAP project
+# NOTE: PyTorch GPU wheels are platform- and CUDA-version specific.
+# For CUDA 12.8, use the provided find-links before the torch line.
+--find-links https://download.pytorch.org/whl/cu128/torch_stable.html
+torch==2.8.0+cu128
+numpy>=1.23
+scikit-learn>=1.1
+
+# Optional (uncomment if needed):
+# typing_extensions
+# matplotlib
