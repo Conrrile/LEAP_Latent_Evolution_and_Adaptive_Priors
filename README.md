@@ -13,7 +13,12 @@ Run commands from the repository root. Use `--device` to force CPU/GPU if needed
 ```powershell
 python LEAP_Extension_main.py --mode pretrain --model_name LEAP --dataset HAR --output_root ./extension_experiments --experiment_name myexp
 ```
-
+```powershell
+python LEAP_Extension_main.py --mode pretrain --model_name LEAP --dataset HAR --augment 1 --output_root ./extension_experiments --experiment_name myexp
+```
+```powershell
+python LEAP_Extension_main.py --mode pretrain --model_name LEAP --dataset HAR --augment 1 --augment_both_sides 1 --output_root ./extension_experiments --experiment_name myexp
+```
 - Downstream finetuning (linear probe):
 
 ```powershell
@@ -45,7 +50,7 @@ Common extra options:
 - `--leap_ode_dynamics`: `linear` / `mlp`.
 - `--leap_ode_step_size`: ODE step size (e.g. `0.1`).
 - `--leap_temperature`: temperature for LEAP alignment loss (optional).
-- `--augment`: applies only to `pretrain` (`--augment 1` enables augmentation only one single view).
+- `--augment`: applies only to `pretrain` (`--augment 1` enables augmentation on only single view).
 - `--augment_both_sides`: enable two-sided augmentation.
 
 ## 2. Evironment:
