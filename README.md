@@ -70,6 +70,6 @@ pip install -r requirements.txt
 
 ## 3. Datasets
 Download datasets from the links below and place them in the `datasets/` directory. The code will automatically look for the datasets in `datasets/` and preprocess them if needed.
-[Download Dataset](https://zenodo.org/records/18970358?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjY2YmI1YzgzLThlNjAtNGJhNC1iN2MzLTRjOTQ0NDI5NGI2YiIsImRhdGEiOnt9LCJyYW5kb20iOiI5N2ZiNzk4NmY3NWQyZGZjZGRjOTEzY2FlOWFiYTRjMyJ9.dHHLYVlQJPH9li4dv5DBFV3vJZL-_11g3qtUaSxtjc2UrVkwzyRENnuBSWKB_R8NN3QYKHIl640ZMJUVwdJB6Q)
+[Download Dataset](https://zenodo.org/records/18970358)
 
 
